@@ -33,9 +33,10 @@ var vegaLiteSpec =
               "condition": {
                 "param": "togglePopulation",
                 "field": "population",
+                "title": "Population",
                 "scale": {"type": "log", "scheme": "greens"},
                 "type": "quantitative"
-                },
+              },
               "value": "lightgrey"
             }
           }
@@ -54,6 +55,7 @@ var vegaLiteSpec =
               "condition": {
                 "test": {"param": "brush"},
                 "field": "campusSetting",
+                "title": "Campus setting",
                 "type": "nominal",
                 "scale": {"range": ["black", "purple", "red"]}
               },
@@ -101,6 +103,7 @@ var vegaLiteSpec =
             "condition": {
               "param": "brush",
               "field": "collegeType",
+              "title": "College type",
               "type": "nominal",
               "scale": {"range": ["black", "green"]}
             },
@@ -125,20 +128,17 @@ var vegaLiteSpec =
           ]
         },
         "params": [
-          {
-            "name": "brush", 
-            "select": {"type": "interval", 
-            "resolve": "global"}}
+          {"name": "brush", "select": {"type": "interval", "resolve": "global"}}
         ]
       }
     }
   ],
-  "params": [{
-            "name": "togglePopulation",
-            "value": "Show population",
-            "bind": {"input": "select", "options": [true, false]}
-            
-  }
+  "params": [
+    {
+      "name": "togglePopulation",
+      "value": "Show population",
+      "bind": {"input": "select", "options": [true, false]}
+    }
   ]
 };
 
