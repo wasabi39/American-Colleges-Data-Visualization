@@ -19,7 +19,7 @@ var vegaLiteSpec =
               "lookup": "id",
               "from": {
                 "data": {
-                  "url": "https://raw.githubusercontent.com/wasabi39/test/main/us_county.csv"
+                  "url": "https://raw.githubusercontent.com/wasabi39/American-Colleges-Data-Visualization/main/us_county.csv"
                 },
                 "key": "fips",
                 "fields": ["population"]
@@ -43,7 +43,7 @@ var vegaLiteSpec =
         },
         {
           "data": {
-            "url": "https://raw.githubusercontent.com/wasabi39/test/main/top_colleges_2022.csv"
+            "url": "https://raw.githubusercontent.com/wasabi39/American-Colleges-Data-Visualization/main/top_colleges_2022.csv"
           },
           "mark": "circle",
           "projection": {"type": "albersUsa"},
