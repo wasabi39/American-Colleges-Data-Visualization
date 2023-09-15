@@ -2,7 +2,7 @@ var vegaLiteSpec =
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/wasabi39/test/main/top_colleges_2022.csv"
+    "url": "https://raw.githubusercontent.com/wasabi39/American-Colleges-Data-Visualization/main/top_colleges_2022.csv"
   },
   "vconcat": [
     {
